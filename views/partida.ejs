@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+</head>
+<body class="container">
+<main>
+    <div class="jumbotron">
+        <h1>Pedra, Paper Tisora</h1>
+        <p>Partida</p>
+    </div>
+  
+    <form action='/api/mouJugador/:codiPartida/:moviment' method="POST">
+        Escolleig:<br>
+        <select>
+                <option value="pedra">Pedra</option>
+                <option value="paper">Paper</option>
+                <option value="tisores">Tisores</option>
+              
+              </select> 
+        
+        <input type="submit" value="Juga">
+      </form> 
+     
+</main>
+</body>
+</html>
